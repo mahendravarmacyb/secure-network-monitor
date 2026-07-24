@@ -1,0 +1,16 @@
+{
+    "project_name": "Secure Network Monitor",
+    "version": "1.0.0",
+
+    "default_network": "192.168.1.0/24",
+
+    "log_directory": "logs",
+
+    "report_directory": "reports",
+
+    "database": "database/network.db",
+
+    "scan_timeout": 5,
+
+    "default_ports": "1-1024"
+}
