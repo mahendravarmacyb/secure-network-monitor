@@ -1,3 +1,4 @@
+from scanner.host_discovery import HostDiscovery
 from utils.logger import setup_logger
 from utils.config import Config
 from database_manager.database import Database
@@ -24,8 +25,8 @@ def main():
         choice = input("Enter your choice: ")
 
         if choice == "1":
-            print("\nHost Discovery Module (Coming Next Phase)")
-            logger.info("Host Discovery selected")
+         discovery = HostDiscovery()
+         discovery.run()
 
         elif choice == "2":
             logger.info("Application Closed")
